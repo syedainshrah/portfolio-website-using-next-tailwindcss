@@ -3,8 +3,8 @@ import './About.css'
 
 function About() {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center py-12 px-6 md:px-16 bg-white rounded-md">
-      {/* Image Section */}
+    <section className="flex flex-col md:flex-row justify-between items-center h-screen py-12 px-6 md:px-16 bg-white rounded-md">
+      {/* Image Section */} 
       <div className="w-full md:w-1/2 flex justify-center">
         <div className="about-img w-64 h-64 sm:w-72 sm:h-72 lg:w-96 lg:h-96 rounded-full border-2 border-t-slate-400 border-b-[#04AF70] border-r-[#04AF70] border-l-[#04AF70] shadow-black shadow-inner"></div>
       </div>

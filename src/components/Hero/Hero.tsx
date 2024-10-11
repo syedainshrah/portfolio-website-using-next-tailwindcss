@@ -5,7 +5,7 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <section className="flex flex-col md:flex-row-reverse min-h-screen justify-between items-center px-6 md:px-16 py-16 lg:py-24 bg-white">
+    <section className="flex flex-col md:flex-row-reverse min-h-screen justify-between items-center h-screen px-6 md:px-16 py-16 lg:py-24 bg-white">
       {/* Image Section */}
       <div className="w-full md:w-1/2 flex flex-col items-center">
         <div className="hero-img w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-full border-2 border-t-slate-400 border-b-[#04AF70] border-r-[#04AF70] border-l-[#04AF70] shadow-black shadow-inner"></div>

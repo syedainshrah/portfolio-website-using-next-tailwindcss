@@ -7,13 +7,16 @@ function Footer() {
       <div className="container mx-auto text-center">
         {/* Logo and navigation */}
         <div className="flex flex-col items-center mb-4">
-          <Image
-            src="/assets/images/Logo.svg"
-            alt="Muhammad Zeeshan Khan Logo"
-            width={300}
-            height={300}
-            className="mb-2 "
-          />
+          <div className="">
+
+            <Image
+              src="/assets/images/Logo.svg"
+              alt="Muhammad Zeeshan Khan Logo"
+              width={500}
+              height={500}
+              className="mb-2 "
+            />
+          </div>
           <nav className="flex space-x-4 text-gray-700">
             <Link href="/" className="hover:text-gray-500">
               Home
@@ -39,16 +42,16 @@ function Footer() {
         {/* Social media links */}
         <div className="flex justify-center space-x-4 mb-4">
           <Link href="https://intagram.com" aria-label="Twitter" className="text-gray-400 hover:text-white">
-            <Image src='/assets/images/insta.jpeg' alt='' width={20} height={20}/>
+            <Image src='/assets/images/insta.jpeg' alt='' width={20} height={20} />
           </Link>
           <Link href="https://linkedin.com" aria-label="Facebook" className="text-gray-400 hover:text-white">
-            <Image src='/assets/images/linkedin.jpeg' alt='' width={20} height={20}/>
+            <Image src='/assets/images/linkedin.jpeg' alt='' width={20} height={20} />
           </Link>
           <Link href="https://whatsapp.com" aria-label="whatsapp" className="text-gray-400 hover:text-white">
-            <Image src='/assets/images/whatsapp.jpeg' alt='' width={20} height={20}/>
+            <Image src='/assets/images/whatsapp.jpeg' alt='' width={20} height={20} />
           </Link>
           <Link href="https://github.com" aria-label="github" className="text-gray-400 hover:text-white">
-            <Image src='/assets/images/github.jpeg' alt='' width={20} height={20}/>
+            <Image src='/assets/images/github.jpeg' alt='' width={20} height={20} />
           </Link>
         </div>
 

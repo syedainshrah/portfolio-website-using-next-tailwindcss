@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="no"?>
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="500" height="150" viewBox="0 0 500 150">
-    <g transform="translate(0,150) scale(0.100000,-0.100000)" fill="#04AF70" stroke="none">
+    <g transform="translate(50,205) scale(0.100000,-0.100000)" fill="#04AF70" stroke="none">
       
        <path d="M250 1350 L250 1150 L280 1150 L280 1350 Z"/>
        <path d="M220 1150 L220 1400 L280 1400 L280 1150 Z"/>
     </g>
-    <text x="50" y="33" font-family="Verdana" font-size="30" fill="black">Inshara Khatoon</text>
+    <text x="90" y="90" font-family="Verdana" font-size="35" fill="black">Inshara Khatoon</text>
 </svg>

@@ -1,10 +1,11 @@
 .hero-img {
-    background: url("/assets/images/M-Zeeshan-Khan.png") no-repeat ;
-    background-size: 100%;
+    background: url("/assets/images/me.jpeg") no-repeat ;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.13);
-    background-position-x: center  ;
-    background-position-y: top;
+     background-position-x: center  ;
+     background-position-y: top;
+    filter: blur(2px);
     background-clip: border-box;
-    object-fit: " fill cover"; 
+   
     
   }
