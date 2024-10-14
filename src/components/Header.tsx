@@ -38,7 +38,7 @@ export default function Header() {
             <Image
               className="w-48 md:w-52 lg:w-60 xl:w-72 2xl:w-80"
               src="/assets/images/Logo.svg"
-              alt="ZK logo"
+              alt="inshrah logo"
               width={100}
               height={50}
             />
