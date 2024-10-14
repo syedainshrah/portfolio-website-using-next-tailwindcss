@@ -2,26 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Default dark mode */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #171717; /* Dark background */
+  --foreground: #ffffff; /* Light foreground */
+
+  
 }
 
-@media (prefers-color-scheme: dark) {
+/* Light mode support */
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ededed;  /* Light background */
+    --foreground: #0a0a0a;  /* Dark foreground */
   }
 }
 
+/* Apply the colors to the body */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--background);
+  background: var(--foreground);
+  font-family: 'Poppins', sans-serif;
 }
 
+::selection{
+  background: #04af7085;
+}
+
+
+/* Custom text balancing utility */
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    text-wrap: balance; /* Supported in modern browsers */
+    word-wrap: break-word; /* Fallback for older browsers */
+    overflow-wrap: break-word; /* Another fallback */
   }
 }
